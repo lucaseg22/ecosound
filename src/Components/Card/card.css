@@ -1,0 +1,17 @@
+.card{
+    margin: .5em;
+    max-width: 150px !important;
+}
+
+iframe{
+    border: none;
+    margin-top: 0;
+}
+
+@media(min-width:578px )
+{
+    .card{
+        max-width: 345px !important;
+        margin: 2em;
+    }
+}

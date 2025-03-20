@@ -1,0 +1,14 @@
+img.imgmini {
+    height: 15%;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: .5em;
+}
+
+.imgmax{
+    height: 15%;
+    width: 20%;
+    margin: .5em;
+    display: inline;
+}
