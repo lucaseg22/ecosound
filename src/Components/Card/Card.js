@@ -11,13 +11,13 @@ export default function Cards({data}) {
   let telefonos = `https://wa.me/549${telefono}`
   return (
     
-    <Card className='card' sx={{borderRadius:'15px', fontFamily: 'Gill Sans'}}>
+    <Card className='card' sx={{borderRadius:'15px', fontFamily: 'Gill Sans', width:'300px'}}>
         <iframe title={nombre} src={mapa}></iframe>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {nombre}
         </Typography>
-        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+        <Typography className='direccion' variant="body2" sx={{ color: 'text.secondary', fontSize:'15px' }}>
           Direccion: {direccion}
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>

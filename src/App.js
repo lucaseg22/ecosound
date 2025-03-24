@@ -8,8 +8,8 @@ import SendIcon from '@mui/icons-material/Send'
 const consultorios = [
 {
     "nombre": 'Santa Barbara',
-    "telefono": 111111,
-    "direccion":'Corredor Bancalari 3901',
+    "telefono": 1162376187,
+    "direccion":'Corredor Bancalari 3901, 2° piso, Oficina 31',
     "mapa":'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.2081099411503!2d-58.63538022341724!3d-34.44686474923292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca4f05d213303%3A0xf84e698b5627abd3!2sPaseo%20Santa%20Barbara!5e0!3m2!1ses!2sar!4v1740509309906!5m2!1ses!2sar'
 },
 {
@@ -23,6 +23,12 @@ const consultorios = [
   "telefono": 1125560078,
   "direccion": 'Fondo de la legua 856',
   "mapa": 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.1471626829853!2d-58.544889223415225!3d-34.49915325198497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb063574e45c1%3A0x35c692b1786a2e73!2sAv.%20Fondo%20de%20la%20Legua%20856%2C%20B1640%20Villa%20Adelina%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1740572047663!5m2!1ses!2sar'
+},
+{
+  "nombre": 'Pilar Point',
+  "telefono": '1132883989',
+  "direccion": 'Estanislao Lopez 538, Pilar',
+  "mapa":'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.905003717706!2d-58.91490972341703!3d-34.45455924963761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9cd0d8850079%3A0x15f05e7db1f2251c!2sCentro%20Comercial%20Pilar%20Point!5e0!3m2!1ses!2sar!4v1742819490760!5m2!1ses!2sar'
 }
 ];
 
@@ -43,7 +49,7 @@ function App() {
         <div className='quienes'>
             <img alt='logo' className='logosolo' src='./images/logo solo.png' />
             <h1>ECOSOUND</h1>
-            <h3>Somos un equipo de profesionales dedicados a realizar ecografias en distintos consultorios de Zona Norte.</h3>
+            <h3>Somos un equipo de profesionales dedicados a realizar ecografías en distintos consultorios de Zona Norte.</h3>
         </div>
 
         <div className='consultorio'>
@@ -63,6 +69,10 @@ function App() {
           <img alt='sancor' src='./images/coberturas/sancor.png'></img>
           <img alt='swiss' src='./images/coberturas/swiss.jpg'></img>
           <img alt='osde' src='./images/coberturas/osde.jpg'></img>
+          <img alt='medife' src='./images/coberturas/medife.webp'></img>
+          <img alt='medicus' src='./images/coberturas/medicus.png'></img>
+          <img alt='bristol' src='./images/coberturas/bristol.jpg'></img>
+          <img alt='william hope' src='./images/coberturas/whope.png'></img>
         </div>
 
         <div className='contacto'>
