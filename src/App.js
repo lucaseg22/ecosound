@@ -29,6 +29,12 @@ const consultorios = [
   "telefono": '1132883989',
   "direccion": 'Estanislao Lopez 538, Pilar',
   "mapa":'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.905003717706!2d-58.91490972341703!3d-34.45455924963761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9cd0d8850079%3A0x15f05e7db1f2251c!2sCentro%20Comercial%20Pilar%20Point!5e0!3m2!1ses!2sar!4v1742819490760!5m2!1ses!2sar'
+},
+{
+  "nombre": 'Alvear Consultorios',
+  "telefono": '1138171250',
+  "direccion": 'Alvear 329, Martinez',
+  "mapa":'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d822.1498248600774!2d-58.49718293033614!3d-34.48768799290942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1a62f4f11df%3A0x92a7eb1683aa0d6c!2sAlvear%20Consultorios!5e0!3m2!1ses-419!2sar!4v1756228987480!5m2!1ses-419!2sar'
 }
 ];
 
